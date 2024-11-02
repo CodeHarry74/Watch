@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch</title>
+</head>
+<body>
+    <div class="main">
+        <div class="watch">
+         <span class="hrs font">00</span>
+         <span class="font">:</span>
+         <span class="min font">00</span>
+         <span class="font">:</span>
+         <span class="sec font">00</span>
+        </div>
+    </div>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            background-image: url(./istockphoto-499689946-2048x2048.jpg);
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .watch{
+          background: linear-gradient(to right, pink 30% , rgb(69, 199, 235)100%);
+          box-shadow: 2px 2px 10px 5px; 
+          border-radius: 20px;           
+            width: 40%;
+            height: 20%;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        .font{
+            font-size: 60px;
+        }
+    </style>
+    <script src="index.js"></script>
+</body>
+</html>
